@@ -23,7 +23,7 @@
 
         {{-- Logos flotando, más compactos --}}
         <div class="relative w-full h-[500px] sm:h-[400px]">
-            <img src="{{ asset('images/logos/laravel.png') }}" alt="Laravel"
+            <img src="{{ asset('images/logos/laravel.svg') }}" alt="Laravel"
                  class="absolute top-16 sm:top-20 left-1/2 transform -translate-x-1/2 grayscale transition h-14 animate-glow" style="animation-delay: 0s;">
             <img src="{{ asset('images/logos/tailwind.png') }}" alt="Tailwind"
                  class="absolute top-36 sm:top-28 left-10 sm:left-16 grayscale transition h-12 animate-glow" style="animation-delay: 2s;">
