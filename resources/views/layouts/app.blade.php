@@ -32,14 +32,14 @@
        $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))
      " 
      x-cloak
-     class="transition-colors duration-500 antialiased bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+     class="transition-colors duration-500 antialiased bg-white dark:bg-[#020617] text-gray-900 dark:text-gray-100">
 
-    <div class="min-h-screen bg-[#020617] dark:bg-[#020617]" x-data="{ sidebarOpen: false, sidebarPinned: false }">
-        
+    {{-- Fondo animado global detrás de todo --}}
+    {{-- <div class="fixed inset-0 -z-10 bg-gradient-to-br from-black/50 to-gray-900/50 pointer-events-none"></div> --}}
 
-        <div class="container mx-auto p-4">
-            @yield('content')
-        </div>
+    {{-- Contenido de la vista --}}
+    <div>
+        @yield('content')
     </div>
        
     </body>
