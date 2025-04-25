@@ -73,7 +73,7 @@
                         <i class="fas fa-code"></i> Codigo limpio
                     </div>
                 </div>
-                <div class="hidden lg:block absolute left-1/2 top-72 -translate-x-1/2 animate-float">
+                <div class="hidden lg:block absolute left-1/2 top-60 -translate-x-1/2 animate-float">
                     <div class="px-4 py-2 rounded-lg bg-amber-500/10 backdrop-blur-sm border border-amber-500/20 text-amber-400">
                         <i class="fas fa-lightbulb"></i> Innovación
                     </div>
@@ -81,10 +81,9 @@
 
             </div>
 
-            {{-- Columna derecha (Simulación ventana de código) --}}
-            <div class="w-full lg:w-1/2">
-                <div class="rounded-xl overflow-hidden shadow-lg bg-[#091121]">
-                    <div class="flex items-center bg-gray-800 px-4 py-2">
+            <div class="w-full lg:w-1/2 flex flex-col items-center justify-center gap-0 mt-12 lg:mt-20">
+                <div class="relative w-full bg-[#091121] rounded-2xl shadow-2xl max-w-2xl"> {{-- SIN overflow-hidden --}}
+                    <div class="flex items-center bg-gray-800 px-5 py-3">
                         <div class="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
                         <div class="w-3 h-3 bg-yellow-500 rounded-full mr-2"></div>
                         <div class="w-3 h-3 bg-green-500 rounded-full"></div>
@@ -92,19 +91,29 @@
                             <i class="fas fa-code"></i> developer.js
                         </span>
                     </div>
-                    <pre class="p-6 text-green-400 text-sm">
+                    <pre class="p-10 text-green-400 text-[1rem] md:text-lg leading-relaxed whitespace-pre-wrap">
 const profile = {
-  name: 'Sergio Ortiz Garzon',
-  title: 'Fullstack Developer',
-  skills: ['Laravel', 'Asterisk', 'Python', 'alphine,js', 'tailwindcss'],
-  passion: 'Construir algo innovador 💻✨'
+    name: 'Sergio Ortiz Garzon',
+    title: 'Fullstack Developer',
+    skills: ['Laravel', 'Asterisk', 'Python', 'Alpine.js', 'TailwindCSS'],
+    passion: 'Construir algo innovador (rm -rf /)'
 }
                     </pre>
+            
+                    {{-- 🐧 Pingüino superpuesto en la esquina inferior derecha --}}
+                    <div class="absolute -bottom-12 right-0 z-20">
+                        <img src="{{ asset('images/linux.png') }}" alt="Linux Penguin"
+                             class="h-36 md:h-40 lg:h-48 animate-float-slow drop-shadow-xl" />
+                    </div>
                 </div>
             </div>
-
-        </div>
+            
+            
+            
+        
     </section>
+
+    
 
     {{-- Scroll indicator --}}
     <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center gap-2">
