@@ -54,7 +54,7 @@
             {{-- Badges flotantes --}}
             <div class="hidden lg:block absolute left-24 top-10 animate-float">
                 <div class="px-4 py-2 rounded-lg bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 text-purple-400">
-                    <i class="fas fa-wand-magic-sparkles"></i> UI Magic
+                    <i class="fas fa-brain"></i> Programación
                 </div>
             </div>
             <div class="hidden lg:block absolute right-10 top-20 animate-float-slow">
