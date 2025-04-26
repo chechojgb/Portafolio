@@ -23,22 +23,22 @@
             </h2>
 
             <p class="text-lg text-gray-300 leading-relaxed">
-                Soy <span class="text-cyan-300 font-semibold">Sergio Ortiz</span>, desarrollador <span class="text-blue-300 font-semibold">fullstack</span> con una profunda orientación a la creación de <span class="text-emerald-300 font-semibold">soluciones digitales eficientes</span>, escalables y centradas en el usuario. Mi experiencia se ha enfocado principalmente en el ecosistema de <span class="text-blue-400 font-semibold">Laravel</span>, donde he desarrollado desde <span class="text-pink-400 font-semibold">APIs robustas</span> hasta <span class="text-pink-400 font-semibold">sistemas completos de gestión</span>.
+                Soy <span class="text-cyan-300 font-semibold">Sergio Ortiz</span>, desarrollador fullstack con una profunda orientación a la creación de soluciones digitales eficientes, escalables y centradas en el usuario. Mi experiencia se ha enfocado principalmente en el ecosistema de <span class="text-red-400 font-semibold">Laravel</span>, donde he desarrollado desde APIs robustas hasta sistemas completos de gestión.
             </p>
             
             <p class="text-lg text-gray-300 leading-relaxed mt-6">
-                Me apasiona <span class="text-emerald-300 font-semibold">automatizar procesos</span>, optimizar flujos de trabajo y conectar piezas clave de software para que las soluciones no solo funcionen bien, sino que sean <span class="text-amber-300 font-semibold">sostenibles a largo plazo</span>. He trabajado en proyectos que van desde <span class="text-blue-300 font-semibold">paneles de administración personalizados</span> hasta <span class="text-blue-300 font-semibold">herramientas para centros de contacto</span>, integrando diversas tecnologías modernas en el backend y frontend.
+                Me apasiona automatizar procesos, optimizar flujos de trabajo y conectar piezas clave de software para que las soluciones no solo funcionen bien, sino que sean sostenibles a largo plazo</span>. He trabajado en proyectos que van desde paneles de administración personalizados hasta herramientas para centros de contacto, integrando diversas tecnologías modernas en el backend y frontend.
             </p>
             
             <p class="text-lg text-gray-300 leading-relaxed mt-6">
-                En el desarrollo de interfaces y experiencias de usuario, aprovecho la flexibilidad de <span class="text-cyan-400 font-semibold">TailwindCSS</span> para construir diseños limpios y responsivos, y utilizo <span class="text-indigo-400 font-semibold">Alpine.js</span> para añadir interactividad de manera ligera y eficiente, manteniendo el enfoque en el rendimiento y la claridad del proyecto.
+                En el desarrollo de interfaces y experiencias de usuario, aprovecho la flexibilidad de <span class="text-cyan-400 font-semibold">TailwindCSS</span> para construir diseños limpios y responsivos, y utilizo <span class="text-yellow-400 font-semibold">Alpine.js</span> para añadir interactividad de manera ligera y eficiente, manteniendo el enfoque en el rendimiento y la claridad del proyecto.
             </p>
             
             
             
 
             <p class="text-lg text-gray-300 leading-relaxed">
-                Me enfoco en <span class="text-emerald-300 font-semibold">eficiencia</span>, <span class="text-amber-300 font-semibold">simplicidad</span> y <span class="text-pink-300 font-semibold">escalabilidad</span>. Desde sistemas internos hasta herramientas de contacto, cada línea de código busca resolver problemas reales.
+                Me enfoco en eficiencia, simplicidad y escalabilidad. Desde sistemas internos hasta herramientas de contacto, cada línea de código busca resolver problemas reales.
             </p>
 
             {{-- Mini tarjetas tipo glass --}}

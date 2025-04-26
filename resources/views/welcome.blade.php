@@ -8,15 +8,13 @@
     {{-- Contenedor hero section--}}
     <x-hero-section></x-hero-section>
 
-    
-    
-
+    {{-- Sección de presentación --}}
     <x-about-me-section ></x-about-me-section>
-
+    {{-- Sección de habilidades --}}
     <x-my-skills></x-my-skills>
 
     {{-- Proyectos --}}
-    
+    <x-my-projects></x-my-projects>
     
     
 

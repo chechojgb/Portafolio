@@ -10,7 +10,7 @@
         <div class="space-y-6 ">
 
             {{-- Fondo decorativo --}}
-            <h2 class="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">
+            <h2 class="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text pb-4">
                 Tecnologías que uso
             </h2>
             <p class="text-lg text-gray-300 leading-relaxed">
@@ -41,7 +41,15 @@
 
 
     </div>
-</section>
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center gap-2 ">
+      <span class="text-gray-400 text-sm flex items-center gap-2">
+          <i class="fas fa-mouse text-blue-400"></i> Mis proyectos
+      </span>
+      <i class="fas fa-chevron-down text-blue-400 text-xl"></i>
+    </div>
+  </section>
+
+
 
 <style>
     @keyframes glow {
