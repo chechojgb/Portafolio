@@ -28,7 +28,7 @@
 
             {{-- Descripción --}}
             <p class="text-lg text-gray-300/90 leading-relaxed mb-12 max-w-xl">
-                Amante de Laravel 🚀 | Automatización Asterisk 🔧 | Construyendo soluciones de software eficientes 💻✨
+                Amante de Laravel  | Automatización Asterisk  | Construyendo soluciones de software eficientes 
             </p>
 
             {{-- Botones de acción --}}

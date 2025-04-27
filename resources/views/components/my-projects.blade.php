@@ -7,7 +7,7 @@
         <div class="flex flex-col gap-16">
 
             <x-project-card
-                pageTitle="nexoAgents.com"
+                pageTitle="nexoAgents"
                 image="images/projects/nexoAgents.png"
                 himagelg="70"
                 himagexl="70"
@@ -40,7 +40,7 @@
         />
 
             <x-project-card
-            pageTitle="decroche.com"
+            pageTitle="decroche"
             image="images/projects/decroche.png"
             himagelg="70"
             himagexl="70"
