@@ -53,24 +53,24 @@
                     {{-- Imagen principal --}}
                     <div class="relative overflow-hidden">
                         <img src="{{ asset($image) }}" alt="{{ $title }}"
-                             class="w-full h-40 lg:h-{{$himagelg}} xl:h-{{$himagexl}} md:h-60 max-h-72 object-cover transition duration-500 group-hover:scale-105"
+                             class="w-full h-40 lg:h-{{$himagelg}} xl:h-{{$himagexl}} md:h-70 max-h-72 object-cover transition duration-500 group-hover:scale-105"
                              loading="lazy">
                     </div>
                 </div>
             </div>
     
             {{-- Barra de tareas al fondo --}}
-            <div class="absolute bottom-0 left-0 w-full h-12 bg-gray-800 flex items-center px-4 gap-6 z-0 ">
-
-                <div class=" absolute bottom-0 left-1/2 transform -translate-x-1/2 flex items-center gap-6 bg-gray-800 px-6 py-2 rounded-t-xl z-20 md:right-1 md:relative md:px-0 pl-0">
+            <div class="absolute bottom-0 w-full h-12 bg-gray-800"></div>
+            <div class="absolute bottom-0 left-0 w-full h-12 bg-gray-800 flex justify-center items-center px-4 gap-6 z-0">
+                <div class="flex items-center gap-6 bg-gray-800 px-6 py-2 rounded-t-xl z-20">
                     <img src="{{ asset('images/desk/spotify.svg') }}" alt="Spotify" class="w-6 h-6">
-                    <img src="{{ asset('images/desk/safari.svg') }}" alt="Microsoft" class="w-8 h-8 flex items-center gap-2 text-gray-400 bg-blue-200/20 rounded-lg p-1">
-
+                    <img src="{{ asset('images/desk/safari.svg') }}" alt="Safari" class="w-8 h-8 flex items-center gap-2 text-gray-400 bg-blue-200/20 rounded-lg p-1">
                     <img src="{{ asset('images/desk/visual-studio-code.svg') }}" alt="VSCode" class="w-6 h-6">
                     <img src="{{ asset('images/desk/app-store.svg') }}" alt="App Store" class="w-6 h-6">
                     <img src="{{ asset('images/desk/gmail-icon.svg') }}" alt="Gmail" class="w-6 h-6">
                 </div>
             </div>
+            
             
     
         </div>
