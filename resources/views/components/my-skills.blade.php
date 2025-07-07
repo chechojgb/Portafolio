@@ -27,7 +27,7 @@
                  class="absolute top-16 sm:top-20 left-1/2 transform -translate-x-1/2 grayscale transition h-14 animate-glow" style="animation-delay: 0s;">
             <img src="{{ asset('images/logos/tailwind.png') }}" alt="Tailwind"
                  class="absolute top-36 sm:top-28 left-10 sm:left-16 grayscale transition h-12 animate-glow" style="animation-delay: 2s;">
-            <img src="{{ asset('images/logos/alpinejs.svg') }}" alt="Alpine.js"
+            <img src="{{ asset('images/logos/react.png') }}" alt="React.js"
                  class="absolute top-56 sm:top-40 left-1/3 grayscale transition h-12 animate-glow" style="animation-delay: 3s;">
             <img src="{{ asset('images/logos/python.svg') }}" alt="Python"
                  class="absolute top-28 sm:top-28 right-16 sm:right-20 grayscale transition h-12 animate-glow" style="animation-delay: 4s;">
