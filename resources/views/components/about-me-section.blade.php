@@ -31,7 +31,7 @@
             </p>
             
             <p class="text-lg text-gray-300 leading-relaxed mt-6">
-                En el desarrollo de interfaces y experiencias de usuario, aprovecho la flexibilidad de <span class="text-cyan-400 font-semibold">TailwindCSS</span> para construir diseños limpios y responsivos, y utilizo <span class="text-yellow-400 font-semibold">Alpine.js</span> para añadir interactividad de manera ligera y eficiente, manteniendo el enfoque en el rendimiento y la claridad del proyecto.
+                En el desarrollo de interfaces y experiencias de usuario, aprovecho la flexibilidad de <span class="text-cyan-400 font-semibold">TailwindCSS</span> para construir diseños limpios y responsivos, y utilizo <span class="text-blue-400 font-semibold">React</span> para añadir interactividad dinámica y componentes reutilizables, manteniendo el enfoque en rendimiento y escalabilidad.
             </p>
             
             
@@ -56,7 +56,7 @@
                 <div class="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-indigo-400/10 hover:scale-[1.02] transition shadow-md">
                     <h3 class="text-indigo-400 font-bold mb-3">¿Cómo lo hago?</h3>
                     <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
-                        <li>Alpine.js, TailwindCSS, Python</li>
+                        <li>React, TailwindCSS, Git</li>
                         <li>Buenas prácticas y CI/CD</li>
                         <li>Escuchando al usuario final</li>
                         <li>Optimizando cada capa del sistema</li>

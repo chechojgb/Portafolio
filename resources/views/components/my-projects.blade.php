@@ -7,19 +7,19 @@
         <div class="flex flex-col gap-16">
 
             <x-project-card
-                pageTitle="nexoAgents"
+                pageTitle="AZZU"
                 image="images/projects/nexoAgents.png"
                 himagelg="70"
                 himagexl="70"
                 title="NexoAgents - Control y monitoreo de agentes"
-                description="Sistema integral de control y monitoreo de agentes, diseñado para optimizar operaciones de atención y gestión en tiempo real. Desarrollado utilizando tecnologías modernas como Laravel,LivewireAlpine.js, permitiendo interacciones fluidas, actualizaciones en vivo y una experiencia de usuario ligera y responsiva. Actualmente, más de 1,000 agentes están siendo gestionados y monitoreados activamente a través de esta plataforma, asegurando eficiencia, trazabilidad y control total en los procesos internos."
+                description="Sistema integral de control y monitoreo de agentes, diseñado para optimizar operaciones de atención y gestión en tiempo real. Desarrollado utilizando tecnologías modernas como Laravel y react, permitiendo interacciones fluidas, actualizaciones en vivo y una experiencia de usuario ligera y responsiva. Actualmente, más de 1,000 agentes están siendo gestionados y monitoreados activamente a través de esta plataforma, asegurando eficiencia, trazabilidad y control total en los procesos internos."
                 :tags="[
                     ['name' => 'Laravel', 'class' => 'bg-red-900 text-white', 'icon' => 'images/logos/laravel.svg'],
                     ['name' => 'Tailwind CSS', 'class' => 'bg-cyan-700 text-white', 'icon' => 'images/logos/tailwind.png'],
-                    ['name' => 'Alpine.js', 'class' => 'bg-indigo-500 text-white', 'icon' => 'images/logos/alpinejs.svg']
+                    ['name' => 'React', 'class' => 'bg-blue-400 text-white', 'icon' => 'images/logos/react.png']
                 ]"
                 
-                github="https://github.com/chechojgb/MySoulBoard-v2"
+                github="https://github.com/chechojgb/AZZU"
             />
 
             <x-project-card
